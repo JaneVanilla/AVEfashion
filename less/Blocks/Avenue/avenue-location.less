@@ -1,0 +1,108 @@
+.avenue__location {
+	margin-bottom: 120px;
+	background: #f8f8f8;
+}
+.avenue__location-map {
+	float: left;
+	width: 68%;
+}
+.avenue__location-address {
+	float: right;
+	padding: 2%;
+	width: 28%;
+	background: #F8F8F8;
+}
+.avenue__address-block {
+	font-style: normal;
+}
+.avenue__address-block .avenue-content__blocks-title {
+	margin-top: 0;
+}
+.avenue__location-detail {
+	padding: 0;
+}
+.avenue__location-details {
+	position: relative;
+	padding-left: 25px;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 14px;
+	line-height: 32px;
+	font-weight: lighter;
+}
+.avenue__location-details::before {
+	position: absolute;
+	left: 0;
+	bottom: -8px;
+	content: "";
+	width: 20px;
+	height: 25px;
+	background: url("../../img/Avenue/icons.png");
+	background-repeat: no-repeat;
+}
+.avenue__location-details--1::before {
+	background-position: 0 -2px;
+}
+.avenue__location-details--2::before {
+	background-position: 0 -32px;
+}
+.avenue__location-details--3::before {
+	background-position: 0 -65px;
+}
+.avenue__location-details--4::before {
+	background-position: 0 -95px;
+}
+.avenue__location-details--5::before {
+	background-position: 0 -128px;
+}
+.avenue__location-details a {
+	color: #737373;
+	text-decoration: none;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 14px;
+	line-height: 32px;
+	font-weight: lighter;
+}
+.avenue__social-links {
+	font-size: 0;
+	display: inline-block;
+	margin-right: 12px;
+	height: 30px;
+	width: 30px;
+	background: url("../../img/Avenue/social.png");
+	background-repeat: none;
+}
+.avenue__social-links--fb {
+	background-position: 0 0;
+}
+.avenue__social-links--tw {
+	background-position: -44px 0px;
+}
+.avenue__social-links--in {
+	background-position: -88px 0px;
+}
+.avenue__social-links--pin {
+	background-position: -132px 0px;
+}
+.avenue__social {
+	display: inline-block;
+	
+}
+@media (max-width: 1200px) {
+	.avenue__location {
+	margin-bottom: 58px;
+}
+	.avenue__location-map {
+		float: none;
+		width: 100%;
+	}
+	.avenue__location-address {
+		float: none;
+		margin: 0 auto;
+		width: 60%;
+	}
+}
+@media (max-width: 768px) {
+	.avenue__location-details {
+		font-size: 10px;
+	}
+}

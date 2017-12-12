@@ -1,0 +1,20 @@
+{
+  "name": "avanuefashion",
+  "version": "1.0.0",
+  "description": "учебный макет. Используется less, сборка сделана на grunt.",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Zhanna Sydorovych",
+  "license": "ISC",
+  "devDependencies": {
+    "grunt-contrib-less": "^1.4.1",
+    "grunt-contrib-watch": "^1.0.0"
+  },
+  "dependencies": {
+    "grunt-contrib-less": "^1.4.1",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-postcss": "^0.9.0"
+  }
+}

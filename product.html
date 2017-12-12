@@ -1,0 +1,352 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>avenueFashion</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="less/style.less">
+    <link rel="stylesheet" href="fonts.css">
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,300i,400,400i,500,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
+   </head>
+   <body class="page-body page-body__brand page-body__product">
+      <div class="page-header ">
+         <div class="container">
+           <div class="clearfix">
+              <form action="post" class="page-header__form">
+                 <label for="currency">Currency:</label>
+                  <select class="page-header__form--select" name="currency" id="currency">
+                    <option value="GBP">GBP <i class="fa fa-angle-down" aria-hidden="true"></i></option>
+                  </select>
+              </form>
+              <div class="page-header__user-block">
+                  <button class="page-header__basket-btn"><i class="fa fa-shopping-cart" aria-hidden="true"></i> </button>
+                  <button class="page-header__register-btn"><i class="fa fa-sign-in" aria-hidden="true"></i></button>
+                 <a href="signin.html" class="page-header__btn">Register / Sign in</a>
+                  <button class="page-header__btn page-header__btn--basket">
+                      <i class="fa fa-shopping-cart" aria-hidden="true"></i> 
+                      <span class="page-header__empty-basket">Empty</span>
+                  </button>
+              </div>
+           </div>
+          </div>
+      </div>
+      <section class="top-content">
+         <div class="container clearfix">
+
+              <a href="index.html" class="top-content__logo">
+                 <b>AVENUE</b> FASHION
+              </a>
+
+              <button class="top-content__nav-hamburger"> &#x2630;</button>
+              <button class="top-content__close-hamburger">&times;</button>
+
+              <div class="top-content__nav-form">
+                   <nav class="top-content__navigation">
+                      <ul class="top-content__nav-list">
+                         <li class="top-content__nav-items"><a href="product.html" class="top-content__nav-links  top-content__nav-links--mens">MENS 
+                        <span class="top-content__nav-links--decor">&or;</span>
+                          </a>
+                            <ul class="top-contnet__under-nav">
+                              <li class="top-content__under-links">CASUAL</li>
+                              <li class="top-content__under-links">FORMAL</li>
+                            </ul>
+                         </li>
+                         <li class="top-content__nav-items"><a href="product.html" class="top-content__nav-links top-content__nav-links--active">WOMEN'S</a></li>
+                         <li class="top-content__nav-items"><a href="brand.html" class="top-content__nav-links  ">THE BRAND</a></li>
+                         <li class="top-content__nav-items"><a href="avenue.html" class="top-content__nav-links ">LOCAL STORES</a></li>
+                         <li class="top-content__nav-items"><a href="lookBook.html" class="top-content__nav-links  ">LOOK BOOK</a></li>
+                      </ul>
+                   </nav>
+                   <form action="method" class="top-content__search">
+                      <input class="top-content__search-input" type="search" placeholder="Search...">
+                   </form>
+                    <div class="navigation-popup">
+                        <table class="navigation-popup__table">
+                           <tr>
+                              <th>CASUALS</th>
+                              <th>FORMAL</th>
+                           </tr>
+                          <tr>
+                            <td>Jackets</td>
+                            <td>Jackets</td>
+                          </tr>
+                          <tr>
+                            <td>Hoodies & Sweatshits</td>
+                            <td>Shirts</td>
+                          </tr>
+                          <tr>
+                             <td>Polo Shirts</td>
+                             <td>Suits</td>
+                          </tr>
+                          <tr>
+                              <td>Sportswear</td>
+                              <td>Trousers</td>
+                          </tr>
+                          <tr>
+                            <td>Trousers & Chinas</td>
+                            <td></td>
+                          </tr>
+                          <tr>
+                             <td>T-Shirts</td>
+                             <td></td>
+                          </tr>  
+                        </table>  
+                           <img class="navigation-popup__banner" src="img/saleBanner.jpg" alt="" width="406" height="200">
+                           <button class="navigation-popup__close-btn">&#9747;</button>
+                    </div>
+              </div>
+         </div>
+          <div class="brand-banner">
+             <div class="container">
+                <h1 class="brand-banner__title"> <b>PRODUCT</b> VIEW</h1>
+                <b class="brand-banner__text">MEN'S - CASUAL - HOODIES & SWEATSHIRTS - <span class="product-banner">AVE CLASSIC SWEATSHIRTS</span></b>
+            </div>
+         </div>
+      </section>
+
+      <section class="product-content">
+        <div class="container clearfix">
+           <div class="slider">
+             <div class="w3-content w3-display-container">
+
+                   <div class="w3-display-container mySlides">
+                     <img src="img/Product/slider1.jpg"                   >
+                   </div>
+
+                  <div class="w3-display-container mySlides">
+                    <img src="img/Product/slider1.jpg" >
+                  </div>
+
+                  <div class="w3-display-container mySlides">
+                    <img src="img/Product/slider1.jpg">             
+                  </div>
+
+            </div>
+         
+             <button class="slider-prevBtn w3-button w3-display-left w3-black" 
+             onclick="plusDivs(-1)">&#10094;</button>
+            <button class="slider-nextBtn w3-button w3-display-right w3-black" onclick="plusDivs(1)">&#10095;</button>
+
+           </div>
+           <div class="product-details">
+              <h3 class="product-details__title"> AVE CLASSIC SWEATSHIRTS</h3>
+              <p class="product-detail__top">
+                <span class="product-stars">&#9733; &#9733; &#9733; &#9733;</span>
+                <span class="product-stars product-stars--white">&#9733;</span>
+                <span class="product__reviews">3 Review(s)</span>  | 
+                  <a href="#" class="product__add-review">Add a Review</a> | 
+                    <span class="product-detail__share">Share : </span> 
+                      <a href="#" class="product-detail__link"><i class="fa fa-facebook-official" aria-hidden="true"></i></a>  
+                       <a href="#" class="product-detail__link  product-detail__link--envelop"><i class="fa fa-envelope-o" aria-hidden="true"></i></a>
+                        <a href="#" class="product-detail__link"><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
+
+              </p>
+
+              <p class="product-currency">
+                <span class="product-currency__strike">
+                  <sup>&#163;</sup> <s>107</s>
+                </span>
+                  <sup>&#163;</sup> 89.99
+              </p>
+
+              <p class="product-details__stock">
+                <span class="product-details__stock-title">
+                   <b>Availability :</b></span>  In stock <br>
+                <span class="product-details__stock-title">
+                   <b>Product code :</b></span>  #499577  <br>
+                <span class="product-details__stock-title">
+                   <b>Tags :</b></span>
+                   <span class="product-details__tag">
+                     Classic, Casual, V-neck, Loose
+                   </span>  
+              </p>
+              
+              <p class="product-details__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad itaque eligendi voluptate dignissimos nulla deserunt distinctio voluptas similique, assumenda, quis incidunt doloribus ut temporibus aut.</p>
+
+              <ul class="product-details__list">
+                <li class="product-details__list-item">Elasticated cuffs</li>
+                <li class="product-details__list-item">Casual fit</li>
+                <li class="product-details__list-item">100% Cotton</li>
+                <li class="product-details__list-item">Free shipping with 4 days delivery</li>
+              </ul>
+
+              <form action="post" class="product-details__form">
+
+                 <p class="product-details__form-parts">
+                  <label for="color" class="product-details__form-label">
+                   COLOUR</label> <br>
+                   <select class="product-details__form-select" name="choose-color" id="color">
+                   <option selected data-default>Select Colour</option>
+                     <option value="Browm" >Brown</option>
+                     <option value="White" >White</option>
+                     <option value="Black">Black</option>
+                   </select>
+                  </p>
+
+                  <p class="product-details__form-parts">
+                      <label for="size" class="product-details__form-label">
+                        SIZE</label> <br>
+                      <select class="product-details__form-select" name="choose-size" id="size" >
+                     <option value="d"selected data-default>Select Size</option>
+                     <option value="small" >S</option>
+                     <option value="large" >L</option>
+                     <option value="extraLarge" >XL</option>
+                   </select>
+                  </p>
+
+              </form>
+
+              <p class="product-details__btn-block">
+                  <button class="product-details__btn-add">
+                    <span class="product-details__btn-decor">
+                      <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                      
+                    </span>
+                    ADD TO CARD</button>
+                  <button class="product-details__btn-add">  
+                     <span class="product-details__btn-decor">&#10084;</span>
+                     ADD TO LOOKBOOK</button>
+                  <br>
+
+                  <button class="product-detail__compare-btn">
+                    <span class="product-detail__compare-btn--decor">
+                       <i class="fa fa-compress" aria-hidden="true"></i>
+                    </span>
+                    ADD TO COPARE</button>
+              </p>
+
+           </div>
+        </div>
+      </section>
+      <section class="product-content2">
+         <div class="container">
+            <div class="product-description">
+             <ul class="product-description__list">
+               <li class="product-description__items  product-description__items--active">
+                 <a href="#" class="product-description__items-links">
+                    DESCRIPTION
+                 </a>
+               </li>
+               <li class="product-description__items">
+                 <a href="#" class="product-description__items-links">
+                    VIDEO
+                 </a>
+               </li>
+               <li class="product-description__items">
+                 <a href="#" class="product-description__items-links">
+                    SIZE & SPECS
+                 </a>
+               </li>
+               <li class="product-description__items">
+                 <a href="#" class="product-description__items-links">
+                     DELIVERY & RETURNES
+                 </a>
+               </li>
+               <li class="product-description__items">
+                 <a href="#" class="product-description__items-links">
+                     REVIEWS
+                 </a>
+               </li>
+             </ul>
+           </div>
+         </div>
+      </section>
+      <section class="product__content-text">
+         <div class="container">
+             <h2 class="product__text-title">Lorem ipsum dolor sit amet, consectetur adipisicing.</h2>
+             <p class="product__text-block">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos, explicabo. Perferendis blanditiis libero, dicta. Quasi facilis, a praesentium debitis cupiditate impedit mollitia illo voluptatem, commodi?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos, explicabo. Perferendis blanditiis libero, dicta. Quasi facilis, a praesentium debitis cupiditate impedit mollitia illo voluptatem, commodi?</p>
+
+             <p class="product__text-block">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos, explicabo. Perferendis blanditiis libero, dicta. Quasi facilis, a praesentium debitis cupiditate impedit mollitia illo voluptatem, commodi?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos, explicabo. Perferendis blanditiis libero, dicta. Quasi facilis, a praesentium debitis cupiditate impedit mollitia illo voluptatem, commodi?</p>
+        </div>
+      </section>
+      <footer class="page-footer">
+        <div class="container">
+          <div class="page-footer__content">
+           <ul class="page-footer__list">
+               <li class="page-footer__items  page-footer__items-title">
+                  <b>INFORMATION</b>
+               </li>
+               <li class="page-footer__items">
+                 The brand
+               </li>
+               <li class="page-footer__items">
+                 Local stores
+               </li>
+               <li class="page-footer__items">
+                 Customer service
+               </li>
+               <li class="page-footer__items">
+                 Privacy & cookies
+               </li>
+               <li class="page-footer__items">
+                 Site map
+               </li>
+           </ul>
+            <ul class="page-footer__list">
+               <li class="page-footer__items  page-footer__items-title">
+                 <b>WHY BUY FROM US</b>
+               </li>
+               <li class="page-footer__items">Shipping and returnes</li>
+               <li class="page-footer__items">Secure shopping</li>
+               <li class="page-footer__items">Testimonials</li>
+               <li class="page-footer__items">Award winning</li>
+               <li class="page-footer__items">Ethical trading</li>
+            </ul>
+             <ul class="page-footer__list">
+               <li class="page-footer__items page-footer__items-title">
+                 <b>YOUR ACOUNT</b>
+               </li>
+               <li class="page-footer__items">Sign in</li>
+               <li class="page-footer__items">Register</li>
+               <li class="page-footer__items">View cart</li>
+               <li class="page-footer__items">View your lookbook</li>
+               <li class="page-footer__items">Track an order</li>
+               <li class="page-footer__items">Update information</li>
+             </ul>
+              <ul class="page-footer__list">
+                <li class="page-footer__items  page-footer__items-title">
+                   <b>LOOKBOOK</b>
+                </li>
+                <li class="page-footer__items">Latest posts</li>
+                <li class="page-footer__items">Men's lookbook</li>
+                <li class="page-footer__items">Women's lookbook</li>
+                <li class="page-footer__items">Lookbooks RSS feed</li>
+                <li class="page-footer__items">View your lookbook</li>
+                <li class="page-footer__items">Update information</li>
+              </ul>
+               <p class="page-footer__contacts">
+                  
+                 <address class="page-footer__address">
+                  <span class="page-footer__contacts-title"><b>CONTACT DETAILS</b></span><br>
+                   <span>
+                    Head Office. Avenue Fashion.<br>
+                    180-182 Regent Street, London.
+                   </span><br>
+
+                   <span>
+                     Telephone: <a href="tel:+0123456789">0123-456-789</a>
+                   </span><br>
+
+                   <span>
+                     Email: <a href="mailto:support@yourwebsite.com">
+                               support@yourwebsite.com
+                             </a>
+                   </span>
+                 </address>
+               </p>
+          </div>
+        </div>
+      </footer>  
+      <div class="page-bottom">
+        <div class="container">
+          &#x000A9; 2017 Avenue Fashion <sup>TM</sup>
+        </div>
+      </div>
+    </body>
+    <script src="jquery/jquery-3.2.1.min.js"></script>
+    <script src="main.js"></script>
+</html>

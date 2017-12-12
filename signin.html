@@ -1,0 +1,234 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>avenueFashion</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="less/style.less">
+    <link rel="stylesheet" href="fonts.css">
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,300i,400,400i,500,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
+   </head>
+   <body class="page-body page-body__brand page-body__product">
+      <div class="page-header ">
+         <div class="container">
+           <div class="clearfix">
+              <form action="post" class="page-header__form">
+                 <label for="currency">Currency:</label>
+                  <select class="page-header__form--select" name="currency" id="currency">
+                    <option value="GBP">GBP <i class="fa fa-angle-down" aria-hidden="true"></i></option>
+                  </select>
+              </form>
+              <div class="page-header__user-block">
+                  <button class="page-header__basket-btn"><i class="fa fa-shopping-cart" aria-hidden="true"></i> </button>
+                  <button class="page-header__register-btn"><i class="fa fa-sign-in" aria-hidden="true"></i></button>
+                  <a href="signin.html" class="page-header__btn  page-header__btn--active">Register / Sign in</a>
+                  <button class="page-header__btn page-header__btn--basket">
+                      <i class="fa fa-shopping-cart" aria-hidden="true"></i> 
+                      <span class="page-header__empty-basket">Empty</span>
+                  </button>
+              </div>
+           </div>
+          </div>
+      </div>
+      <section class="top-content">
+         <div class="container clearfix">
+
+              <a href="index.html" class="top-content__logo">
+                 <b>AVENUE</b> FASHION
+              </a>
+
+              <button class="top-content__nav-hamburger"> &#x2630;</button>
+              <button class="top-content__close-hamburger">&times;</button>
+
+              <div class="top-content__nav-form">
+                   <nav class="top-content__navigation">
+                      <ul class="top-content__nav-list">
+                         <li class="top-content__nav-items"><a href="product.html" class="top-content__nav-links  top-content__nav-links--mens">MENS 
+                        <span class="top-content__nav-links--decor">&or;</span>
+                          </a>
+                            <ul class="top-contnet__under-nav">
+                              <li class="top-content__under-links">CASUAL</li>
+                              <li class="top-content__under-links">FORMAL</li>
+                            </ul>
+                         </li>
+                         <li class="top-content__nav-items"><a href="product.html" class="top-content__nav-links">WOMEN'S</a></li>
+                         <li class="top-content__nav-items"><a href="brand.html" class="top-content__nav-links  ">THE BRAND</a></li>
+                         <li class="top-content__nav-items"><a href="avenue.html" class="top-content__nav-links ">LOCAL STORES</a></li>
+                         <li class="top-content__nav-items"><a href="lookBook.html" class="top-content__nav-links  ">LOOK BOOK</a></li>
+                      </ul>
+                   </nav>
+                   <form action="method" class="top-content__search">
+                      <input class="top-content__search-input" type="search" placeholder="Search...">
+                   </form>
+                    <div class="navigation-popup">
+                        <table class="navigation-popup__table">
+                           <tr>
+                              <th>CASUALS</th>
+                              <th>FORMAL</th>
+                           </tr>
+                          <tr>
+                            <td>Jackets</td>
+                            <td>Jackets</td>
+                          </tr>
+                          <tr>
+                            <td>Hoodies & Sweatshits</td>
+                            <td>Shirts</td>
+                          </tr>
+                          <tr>
+                             <td>Polo Shirts</td>
+                             <td>Suits</td>
+                          </tr>
+                          <tr>
+                              <td>Sportswear</td>
+                              <td>Trousers</td>
+                          </tr>
+                          <tr>
+                            <td>Trousers & Chinas</td>
+                            <td></td>
+                          </tr>
+                          <tr>
+                             <td>T-Shirts</td>
+                             <td></td>
+                          </tr>  
+                        </table>  
+                           <img class="navigation-popup__banner" src="img/saleBanner.jpg" alt="" width="406" height="200">
+                           <button class="navigation-popup__close-btn">&#9747;</button>
+                    </div>
+              </div>
+         </div>
+          <div class="brand-banner">
+             <div class="container">
+                <h1 class="brand-banner__title"> <b>WELCOME</b> TO AVE</h1>
+                <b class="brand-banner__text">SIGN IN OR REGISTER</b>
+            </div>
+         </div>
+      </section>
+
+      <section class="ave-forms">
+         <div class="container clearfix">
+             <form class="ave-forms-signin">
+                <h3 class="form-title">SIGN IN</h3>
+                <input class="form-input form-input--first" type="email" placeholder="Your email">
+                <br>
+                <input class="form-input" type="password" placeholder="Your password">
+                <br>
+                <div class="clearfix">
+                   <input class="form-submit" type="submit" value="SIGN IN"> 
+                   <a class="form-link" href="#">Forgot your Password &#x027F6;</a>
+                </div>
+             </form>
+
+             <form action="post" class="ave-form__register">
+                 <h3 class="form-title">REGISTER</h3>
+                 <input class="form-input form-input--first" type="email" placeholder="Your email">
+                 <input class="form-input form-input--password" type="password" placeholder="Your password">
+                 <input class="form-input form-input--confirm" type="password" placeholder="Confirm password">
+
+                 <p class="checkbox-block">
+                   <input class="form-input form-input--checkbox"type="checkbox" id="checkbox">
+                   <label class="form-label__checkbox" for="checkbox">Sign up for exclusive updates, discounts, new arrivals, contests and more!</label>
+                </p>
+
+                <div class="clearfix">
+                   <input class="form-submit" type="submit" value="CREATE ACCOUNT">
+                   
+                  <span class="ave-form__register-link">
+                       By clicking "create Account", you <br>
+                        agree to our <a class="form-link" href="#">
+                        Privacy Policy &#x027F6;</a>
+                  </span>
+              </div>
+             </form>
+         </div>
+      </section>
+      <footer class="page-footer">
+        <div class="container">
+          <div class="page-footer__content">
+           <ul class="page-footer__list">
+               <li class="page-footer__items  page-footer__items-title">
+                  <b>INFORMATION</b>
+               </li>
+               <li class="page-footer__items">
+                 The brand
+               </li>
+               <li class="page-footer__items">
+                 Local stores
+               </li>
+               <li class="page-footer__items">
+                 Customer service
+               </li>
+               <li class="page-footer__items">
+                 Privacy & cookies
+               </li>
+               <li class="page-footer__items">
+                 Site map
+               </li>
+           </ul>
+            <ul class="page-footer__list">
+               <li class="page-footer__items  page-footer__items-title">
+                 <b>WHY BUY FROM US</b>
+               </li>
+               <li class="page-footer__items">Shipping and returnes</li>
+               <li class="page-footer__items">Secure shopping</li>
+               <li class="page-footer__items">Testimonials</li>
+               <li class="page-footer__items">Award winning</li>
+               <li class="page-footer__items">Ethical trading</li>
+            </ul>
+             <ul class="page-footer__list">
+               <li class="page-footer__items page-footer__items-title">
+                 <b>YOUR ACOUNT</b>
+               </li>
+               <li class="page-footer__items">Sign in</li>
+               <li class="page-footer__items">Register</li>
+               <li class="page-footer__items">View cart</li>
+               <li class="page-footer__items">View your lookbook</li>
+               <li class="page-footer__items">Track an order</li>
+               <li class="page-footer__items">Update information</li>
+             </ul>
+              <ul class="page-footer__list">
+                <li class="page-footer__items  page-footer__items-title">
+                   <b>LOOKBOOK</b>
+                </li>
+                <li class="page-footer__items">Latest posts</li>
+                <li class="page-footer__items">Men's lookbook</li>
+                <li class="page-footer__items">Women's lookbook</li>
+                <li class="page-footer__items">Lookbooks RSS feed</li>
+                <li class="page-footer__items">View your lookbook</li>
+                <li class="page-footer__items">Update information</li>
+              </ul>
+               <p class="page-footer__contacts">
+                  
+                 <address class="page-footer__address">
+                  <span class="page-footer__contacts-title"><b>CONTACT DETAILS</b></span><br>
+                   <span>
+                    Head Office. Avenue Fashion.<br>
+                    180-182 Regent Street, London.
+                   </span><br>
+
+                   <span>
+                     Telephone: <a href="tel:+0123456789">0123-456-789</a>
+                   </span><br>
+
+                   <span>
+                     Email: <a href="mailto:support@yourwebsite.com">
+                               support@yourwebsite.com
+                             </a>
+                   </span>
+                 </address>
+               </p>
+          </div>
+        </div>
+      </footer>  
+      <div class="page-bottom">
+        <div class="container">
+          &#x000A9; 2017 Avenue Fashion <sup>TM</sup>
+        </div>
+      </div>
+</body>
+    <script src="jquery/jquery-3.2.1.min.js"></script>
+    <script src="main.js"></script>
+</html>
